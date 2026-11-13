@@ -1,0 +1,24 @@
+{
+  "name": "memepump-plugins",
+  "description": "Claude Code plugins from MemePump (memepump.org).",
+  "owner": {
+    "name": "MemePump",
+    "email": "support@memepump.org",
+    "url": "https://memepump.org"
+  },
+  "plugins": [
+    {
+      "name": "memepump",
+      "source": "./plugins/memepump",
+      "description": "MemePump is a read-only Solana token safety checker for AI assistants: it returns a token's risk score, honeypot signal, liquidity-lock status, mint and freeze authority, holder concentration and wallet clusters over MCP. It cannot trade or move funds and never asks for a wallet key. Output is informational, not financial advice.",
+      "category": "research",
+      "tags": [
+        "solana",
+        "token-safety",
+        "rug-pull",
+        "honeypot",
+        "mcp"
+      ]
+    }
+  ]
+}
